@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#voegToe {
+  padding: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#item {
+  padding: 5px;
+}
+
+ul {
+  width: 600px;
+  list-style: none;
+  margin: auto;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  border: 1px solid #ddd;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="checkbox"]:checked + #itemLabel {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+
+
+#itemLabel {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button.far.fa-trash-alt {
+  width: 50px;
+  grid-column: 4;
+  cursor: pointer;
+  color: crimson;
+}
+
