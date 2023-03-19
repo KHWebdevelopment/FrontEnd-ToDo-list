@@ -9,7 +9,10 @@ async function postItem(url, data = {}) {
     },
     body: JSON.stringify(data),
   })
-  .then(response => response.json())
+  .then(function (response) {
+    responseClone = response.clone();
+    return response.json();
+  })
   .then(data => {
     console.log('Success:', data);
   })
