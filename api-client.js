@@ -1,4 +1,4 @@
-const url = "khwebdevelopment-todo-list.netlify.app/"
+const url = "https://khwebdevelopment-todo-list.netlify.app/"
 
 
 async function postItem(url, data = {}) {
