@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/"
+const url = "https://khwebdevelopment-todo-list.netlify.app/"
 
 
 async function postItem(url, data = {}) {
